@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <assert.h>
 #include <color_name_definition.h>
 #include <color_code_checker.h>
 
