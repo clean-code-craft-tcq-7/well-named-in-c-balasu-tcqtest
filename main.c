@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
-#include <color_name_map.h>
-#include <color_code_checker.h>
+#include "color_name_map.h"
+#include "color_code_checker.h"
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
