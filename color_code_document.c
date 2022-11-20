@@ -4,7 +4,7 @@
 #include "color_code_utility.h"
 #include "color_code_document.h"
 
-void CreateColorCodeDocument(void)
+void createColorCodeDocument(void)
 {
   char color_str_buffer[MAX_COLORPAIR_NAME_CHARS];
   int color_code;
