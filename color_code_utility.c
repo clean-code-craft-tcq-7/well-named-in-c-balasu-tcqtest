@@ -1,4 +1,6 @@
-
+#include <stdio.h>
+#include <color_name_definition.h>
+#include <color_code_utility.h>
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s %s",
@@ -10,9 +12,9 @@ ColorPair GetColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
     int zeroBasedPairNumber = pairNumber - 1;
     colorPair.majorColor = 
-        (enum MajorColor)(zeroBasedPairNumber / numberOfMinorColors);
+        (MajorColor)(zeroBasedPairNumber / numberOfMinorColors);
     colorPair.minorColor =
-        (enum MinorColor)(zeroBasedPairNumber % numberOfMinorColors);
+        (MinorColor)(zeroBasedPairNumber % numberOfMinorColors);
     return colorPair;
 }
 
