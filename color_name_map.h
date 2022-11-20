@@ -2,7 +2,7 @@
 #ifndef COLOR_NAME_MAP_H_
 #define COLOR_NAME_MAP_H_
 
-const int MAX_COLORPAIR_NAME_CHARS = 16;
+
 
 typedef enum
 {
