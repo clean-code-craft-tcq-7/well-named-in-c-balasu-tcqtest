@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
-#include <color_name_map.h>
-#include <color_code_checker.h>
+#include "color_name_map.h>"
+#include "color_code_checker.h"
 
 void testNumberToPair(int pairNumber, MajorColor expectedMajor, MinorColor expectedMinor)
 {
