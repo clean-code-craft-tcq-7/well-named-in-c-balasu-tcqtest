@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <color_name_definition.h>
+#include <color_name_map.h>
 #include <color_code_utility.h>
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
