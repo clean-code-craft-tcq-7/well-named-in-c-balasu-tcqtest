@@ -17,7 +17,7 @@ void CreateColorCodeDocument(void)
   {
       memset(color_str_buffer, 0, MAX_COLOR_PAIR_SUPPORTED);
       colorPairVal = GetColorFromPairNumber(color_code);
-      ColorPairToString(colorPairVal, color_str_buffer);
+      ColorPairToString(&colorPairVal, color_str_buffer);
       printf("|\t%d\t|\t%s\t|\n", color_code, color_str_buffer);
   }
 
