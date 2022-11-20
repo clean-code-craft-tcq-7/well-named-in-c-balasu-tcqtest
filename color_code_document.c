@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <string.h>
 #include "color_name_map.h"
-#inlcude "color_code_utility.h"
+#include "color_code_utility.h"
 #include "color_code_document.h"
 
 void CreateColorCodeDocument(void)
